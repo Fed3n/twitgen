@@ -1,0 +1,1094 @@
+[
+  {
+    "id": "06671c677e777826",
+    "name": "Bologna",
+    "full_name": "Bologna, Emilia Romagna",
+    "country": "Italy",
+    "country_code": "IT",
+    "url": "https://api.twitter.com/1.1/geo/id/06671c677e777826.json",
+    "place_type": "city",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            11.2296117,
+            44.4211518
+          ],
+          [
+            11.2296117,
+            44.5563177
+          ],
+          [
+            11.4336997,
+            44.5563177
+          ],
+          [
+            11.4336997,
+            44.4211518
+          ],
+          [
+            11.2296117,
+            44.4211518
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      11.360635442261461,
+      44.48873475
+    ],
+    "contained_within": [
+      {
+        "id": "ca0e3c393ea2e195",
+        "name": "Bologna",
+        "full_name": "Bologna, Emilia Romagna",
+        "country": "Italy",
+        "country_code": "IT",
+        "url": "https://api.twitter.com/1.1/geo/id/ca0e3c393ea2e195.json",
+        "place_type": "admin",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                10.8037339990567,
+                44.0622379993252
+              ],
+              [
+                10.8037339990567,
+                44.8047429972513
+              ],
+              [
+                11.8420879997367,
+                44.8047429972513
+              ],
+              [
+                11.8420879997367,
+                44.0622379993252
+              ],
+              [
+                10.8037339990567,
+                44.0622379993252
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          11.39212047617097,
+          44.43349049828825
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7d588036fe12e124",
+    "name": "Rome",
+    "full_name": "Rome, Lazio",
+    "country": "Italy",
+    "country_code": "IT",
+    "url": "https://api.twitter.com/1.1/geo/id/7d588036fe12e124.json",
+    "place_type": "city",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            12.2344266,
+            41.6558738
+          ],
+          [
+            12.2344266,
+            42.140959
+          ],
+          [
+            12.8558641,
+            42.140959
+          ],
+          [
+            12.8558641,
+            41.6558738
+          ],
+          [
+            12.2344266,
+            41.6558738
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      12.471118929941976,
+      41.879881100000006
+    ],
+    "contained_within": [
+      {
+        "id": "9e3a733ab37b91b0",
+        "name": "Roma",
+        "full_name": "Roma, Lazio",
+        "country": "Italy",
+        "country_code": "IT",
+        "url": "https://api.twitter.com/1.1/geo/id/9e3a733ab37b91b0.json",
+        "place_type": "admin",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                11.7335910001499,
+                41.4075309988165
+              ],
+              [
+                11.7335910001499,
+                42.2960060000194
+              ],
+              [
+                13.2963287758978,
+                42.2960060000194
+              ],
+              [
+                13.2963287758978,
+                41.4075309988165
+              ],
+              [
+                11.7335910001499,
+                41.4075309988165
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          12.631101584410915,
+          41.85176849941795
+        ]
+      }
+    ]
+  },
+  {
+    "id": "521b6f591c4b3ce8",
+    "name": "Florence",
+    "full_name": "Florence, Tuscany",
+    "country": "Italy",
+    "country_code": "IT",
+    "url": "https://api.twitter.com/1.1/geo/id/521b6f591c4b3ce8.json",
+    "place_type": "city",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            11.1496504,
+            43.7259588
+          ],
+          [
+            11.1496504,
+            43.8354579
+          ],
+          [
+            11.339984,
+            43.8354579
+          ],
+          [
+            11.339984,
+            43.7259588
+          ],
+          [
+            11.1496504,
+            43.7259588
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      11.243673796608878,
+      43.78070835
+    ],
+    "contained_within": [
+      {
+        "id": "11c389a83b36fe6a",
+        "name": "Firenze",
+        "full_name": "Firenze, Toscana",
+        "country": "Italy",
+        "country_code": "IT",
+        "url": "https://api.twitter.com/1.1/geo/id/11c389a83b36fe6a.json",
+        "place_type": "admin",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                10.7111330008681,
+                43.4522911741033
+              ],
+              [
+                10.7111330008681,
+                44.2392349975014
+              ],
+              [
+                11.7529769984171,
+                44.2392349975014
+              ],
+              [
+                11.7529769984171,
+                43.4522911741033
+              ],
+              [
+                10.7111330008681,
+                43.4522911741033
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          11.374059580250876,
+          43.845763085802346
+        ]
+      }
+    ]
+  },
+  {
+    "id": "419060023b8455e1",
+    "name": "Turin",
+    "full_name": "Turin, Piedmont",
+    "country": "Italy",
+    "country_code": "IT",
+    "url": "https://api.twitter.com/1.1/geo/id/419060023b8455e1.json",
+    "place_type": "city",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            7.5779802,
+            45.0055411
+          ],
+          [
+            7.5779802,
+            45.1402043
+          ],
+          [
+            7.7735908,
+            45.1402043
+          ],
+          [
+            7.7735908,
+            45.0055411
+          ],
+          [
+            7.5779802,
+            45.0055411
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      7.686949842607512,
+      45.072872700000005
+    ],
+    "contained_within": [
+      {
+        "id": "bc4d74be76542c2a",
+        "name": "Torino",
+        "full_name": "Torino, Piemonte",
+        "country": "Italy",
+        "country_code": "IT",
+        "url": "https://api.twitter.com/1.1/geo/id/bc4d74be76542c2a.json",
+        "place_type": "admin",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                6.62662904059469,
+                44.7137430172124
+              ],
+              [
+                6.62662904059469,
+                45.6023119984888
+              ],
+              [
+                8.1518699986434,
+                45.6023119984888
+              ],
+              [
+                8.1518699986434,
+                44.7137430172124
+              ],
+              [
+                6.62662904059469,
+                44.7137430172124
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          7.512255654024907,
+          45.158027507850605
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1ea588c12abd39d7",
+    "name": "Milan",
+    "full_name": "Milan, Lombardy",
+    "country": "Italy",
+    "country_code": "IT",
+    "url": "https://api.twitter.com/1.1/geo/id/1ea588c12abd39d7.json",
+    "place_type": "city",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            9.040628,
+            45.3867262
+          ],
+          [
+            9.040628,
+            45.5359644
+          ],
+          [
+            9.2780451,
+            45.5359644
+          ],
+          [
+            9.2780451,
+            45.3867262
+          ],
+          [
+            9.040628,
+            45.3867262
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      9.17309718678405,
+      45.4613453
+    ],
+    "contained_within": [
+      {
+        "id": "f6d6541b668771a7",
+        "name": "Milano",
+        "full_name": "Milano, Lombardia",
+        "country": "Italy",
+        "country_code": "IT",
+        "url": "https://api.twitter.com/1.1/geo/id/f6d6541b668771a7.json",
+        "place_type": "admin",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                8.70612000023079,
+                45.1615370000568
+              ],
+              [
+                8.70612000023079,
+                45.6426629970125
+              ],
+              [
+                9.55159199790893,
+                45.6426629970125
+              ],
+              [
+                9.55159199790893,
+                45.1615370000568
+              ],
+              [
+                8.70612000023079,
+                45.1615370000568
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          9.11114277770671,
+          45.4538239991614
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cf5d106c94750000",
+    "name": "Trieste",
+    "full_name": "Trieste, Friuli-Venezia Giulia",
+    "country": "Italy",
+    "country_code": "IT",
+    "url": "https://api.twitter.com/1.1/geo/id/cf5d106c94750000.json",
+    "place_type": "city",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            13.6683593,
+            45.6067875
+          ],
+          [
+            13.6683593,
+            45.7467022
+          ],
+          [
+            13.8985003,
+            45.7467022
+          ],
+          [
+            13.8985003,
+            45.6067875
+          ],
+          [
+            13.6683593,
+            45.6067875
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      13.800339050596277,
+      45.676744850000006
+    ],
+    "contained_within": [
+      {
+        "id": "819f601f3e37ef20",
+        "name": "Trieste",
+        "full_name": "Trieste, Friuli-Venezia Giulia",
+        "country": "Italy",
+        "country_code": "IT",
+        "url": "https://api.twitter.com/1.1/geo/id/819f601f3e37ef20.json",
+        "place_type": "admin",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                13.5760170017409,
+                45.5808700012983
+              ],
+              [
+                13.5760170017409,
+                45.8080233544157
+              ],
+              [
+                13.9185799965971,
+                45.8080233544157
+              ],
+              [
+                13.9185799965971,
+                45.5808700012983
+              ],
+              [
+                13.5760170017409,
+                45.5808700012983
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          13.783554632474207,
+          45.694446677857
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e34cc541ad2088a0",
+    "name": "Cagliari",
+    "full_name": "Cagliari, Sardinia",
+    "country": "Italy",
+    "country_code": "IT",
+    "url": "https://api.twitter.com/1.1/geo/id/e34cc541ad2088a0.json",
+    "place_type": "city",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            9.0106167,
+            39.1579821
+          ],
+          [
+            9.0106167,
+            39.2827906
+          ],
+          [
+            9.1810219,
+            39.2827906
+          ],
+          [
+            9.1810219,
+            39.1579821
+          ],
+          [
+            9.0106167,
+            39.1579821
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      9.093774821473186,
+      39.22038635
+    ],
+    "contained_within": [
+      {
+        "id": "aab34607997853a4",
+        "name": "Cagliari",
+        "full_name": "Cagliari, Sardegna",
+        "country": "Italy",
+        "country_code": "IT",
+        "url": "https://api.twitter.com/1.1/geo/id/aab34607997853a4.json",
+        "place_type": "admin",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                8.60544700154613,
+                38.8639609987339
+              ],
+              [
+                8.60544700154613,
+                39.9193950011374
+              ],
+              [
+                9.65983100229696,
+                39.9193950011374
+              ],
+              [
+                9.65983100229696,
+                38.8639609987339
+              ],
+              [
+                8.60544700154613,
+                38.8639609987339
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          9.168732118776859,
+          39.39167799993565
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d6aa76b6a017112c",
+    "name": "Catania",
+    "full_name": "Catania, Sicily",
+    "country": "Italy",
+    "country_code": "IT",
+    "url": "https://api.twitter.com/1.1/geo/id/d6aa76b6a017112c.json",
+    "place_type": "city",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            14.9358197,
+            37.3577042
+          ],
+          [
+            14.9358197,
+            37.5624391
+          ],
+          [
+            15.1258768,
+            37.5624391
+          ],
+          [
+            15.1258768,
+            37.3577042
+          ],
+          [
+            14.9358197,
+            37.3577042
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      15.048889927356209,
+      37.46007165
+    ],
+    "contained_within": [
+      {
+        "id": "c47009467361a98d",
+        "name": "Catania",
+        "full_name": "Catania, Sicilia",
+        "country": "Italy",
+        "country_code": "IT",
+        "url": "https://api.twitter.com/1.1/geo/id/c47009467361a98d.json",
+        "place_type": "admin",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                14.351997002553,
+                37.0501179987558
+              ],
+              [
+                14.351997002553,
+                37.9608870002065
+              ],
+              [
+                15.2579920022643,
+                37.9608870002065
+              ],
+              [
+                15.2579920022643,
+                37.0501179987558
+              ],
+              [
+                14.351997002553,
+                37.0501179987558
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          14.943894616154672,
+          37.50550249948115
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6b1a8d3bc2056af4",
+    "name": "Messina",
+    "full_name": "Messina, Sicily",
+    "country": "Italy",
+    "country_code": "IT",
+    "url": "https://api.twitter.com/1.1/geo/id/6b1a8d3bc2056af4.json",
+    "place_type": "city",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            15.40808,
+            38.0493834
+          ],
+          [
+            15.40808,
+            38.3015319
+          ],
+          [
+            15.6529359,
+            38.3015319
+          ],
+          [
+            15.6529359,
+            38.0493834
+          ],
+          [
+            15.40808,
+            38.0493834
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      15.515393109957337,
+      38.17545765
+    ],
+    "contained_within": [
+      {
+        "id": "4d608bace0be6337",
+        "name": "Messina",
+        "full_name": "Messina, Sicilia",
+        "country": "Italy",
+        "country_code": "IT",
+        "url": "https://api.twitter.com/1.1/geo/id/4d608bace0be6337.json",
+        "place_type": "admin",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                14.1833889990977,
+                37.7953280022325
+              ],
+              [
+                14.1833889990977,
+                38.8121240019027
+              ],
+              [
+                15.6528750025915,
+                38.8121240019027
+              ],
+              [
+                15.6528750025915,
+                37.7953280022325
+              ],
+              [
+                14.1833889990977,
+                37.7953280022325
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          15.004036289151877,
+          38.048419501534454
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0af3b7ebabdf70af",
+    "name": "Venice",
+    "full_name": "Venice, Veneto",
+    "country": "Italy",
+    "country_code": "IT",
+    "url": "https://api.twitter.com/1.1/geo/id/0af3b7ebabdf70af.json",
+    "place_type": "city",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            12.1667704,
+            45.2304183
+          ],
+          [
+            12.1667704,
+            45.5779025
+          ],
+          [
+            12.5966178,
+            45.5779025
+          ],
+          [
+            12.5966178,
+            45.2304183
+          ],
+          [
+            12.1667704,
+            45.2304183
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      12.310836811851726,
+      45.404160399999995
+    ],
+    "contained_within": [
+      {
+        "id": "d25aff1fea1c4394",
+        "name": "Venezia",
+        "full_name": "Venezia, Veneto",
+        "country": "Italy",
+        "country_code": "IT",
+        "url": "https://api.twitter.com/1.1/geo/id/d25aff1fea1c4394.json",
+        "place_type": "admin",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                11.9619930002644,
+                45.0556129971072
+              ],
+              [
+                11.9619930002644,
+                45.8544329988125
+              ],
+              [
+                13.1022870014315,
+                45.8544329988125
+              ],
+              [
+                13.1022870014315,
+                45.0556129971072
+              ],
+              [
+                11.9619930002644,
+                45.0556129971072
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          12.250236765269804,
+          45.455022997959844
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0fbea96066e4a25f",
+    "name": "Palermo",
+    "full_name": "Palermo, Sicily",
+    "country": "Italy",
+    "country_code": "IT",
+    "url": "https://api.twitter.com/1.1/geo/id/0fbea96066e4a25f.json",
+    "place_type": "city",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            13.2423152,
+            38.0503706
+          ],
+          [
+            13.2423152,
+            38.2246069
+          ],
+          [
+            13.4521098,
+            38.2246069
+          ],
+          [
+            13.4521098,
+            38.0503706
+          ],
+          [
+            13.2423152,
+            38.0503706
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      13.311026858688276,
+      38.13748875
+    ],
+    "contained_within": [
+      {
+        "id": "b6573a098d7b782e",
+        "name": "Palermo",
+        "full_name": "Palermo, Sicilia",
+        "country": "Italy",
+        "country_code": "IT",
+        "url": "https://api.twitter.com/1.1/geo/id/b6573a098d7b782e.json",
+        "place_type": "admin",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                12.9287989971057,
+                37.5392109985326
+              ],
+              [
+                12.9287989971057,
+                38.7208030030316
+              ],
+              [
+                14.2948829989724,
+                38.7208030030316
+              ],
+              [
+                14.2948829989724,
+                37.5392109985326
+              ],
+              [
+                12.9287989971057,
+                37.5392109985326
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          13.60920743750891,
+          37.88194250071555
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ebdc4aa39ecb7cb1",
+    "name": "Naples",
+    "full_name": "Naples, Campania",
+    "country": "Italy",
+    "country_code": "IT",
+    "url": "https://api.twitter.com/1.1/geo/id/ebdc4aa39ecb7cb1.json",
+    "place_type": "city",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            14.1332005,
+            40.7920697
+          ],
+          [
+            14.1332005,
+            40.9161549
+          ],
+          [
+            14.3537026,
+            40.9161549
+          ],
+          [
+            14.3537026,
+            40.7920697
+          ],
+          [
+            14.1332005,
+            40.7920697
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      14.240817245288193,
+      40.8541123
+    ],
+    "contained_within": [
+      {
+        "id": "57ca8330868545eb",
+        "name": "Napoli",
+        "full_name": "Napoli, Campania",
+        "country": "Italy",
+        "country_code": "IT",
+        "url": "https://api.twitter.com/1.1/geo/id/57ca8330868545eb.json",
+        "place_type": "admin",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                13.8511010020526,
+                40.5358419999328
+              ],
+              [
+                13.8511010020526,
+                41.0198050020142
+              ],
+              [
+                14.6703169986296,
+                41.0198050020142
+              ],
+              [
+                14.6703169986296,
+                40.5358419999328
+              ],
+              [
+                13.8511010020526,
+                40.5358419999328
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          14.463685294679632,
+          40.79440000046295
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9df3d1b39e7c078d",
+    "name": "Genoa",
+    "full_name": "Genoa, Liguria",
+    "country": "Italy",
+    "country_code": "IT",
+    "url": "https://api.twitter.com/1.1/geo/id/9df3d1b39e7c078d.json",
+    "place_type": "city",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            8.6658519,
+            44.3790834
+          ],
+          [
+            8.6658519,
+            44.5199153
+          ],
+          [
+            9.0958379,
+            44.5199153
+          ],
+          [
+            9.0958379,
+            44.3790834
+          ],
+          [
+            8.6658519,
+            44.3790834
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      8.892988256829263,
+      44.449499349999996
+    ],
+    "contained_within": [
+      {
+        "id": "36e2d8a1c56a3127",
+        "name": "Genova",
+        "full_name": "Genova, Liguria",
+        "country": "Italy",
+        "country_code": "IT",
+        "url": "https://api.twitter.com/1.1/geo/id/36e2d8a1c56a3127.json",
+        "place_type": "admin",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                8.57157599796082,
+                44.2166439998047
+              ],
+              [
+                8.57157599796082,
+                44.6764299995316
+              ],
+              [
+                9.57487499994897,
+                44.6764299995316
+              ],
+              [
+                9.57487499994897,
+                44.2166439998047
+              ],
+              [
+                8.57157599796082,
+                44.2166439998047
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          9.05830531425029,
+          44.446536999668155
+        ]
+      }
+    ]
+  }
+]
