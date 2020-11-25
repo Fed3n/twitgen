@@ -1,0 +1,86 @@
+[
+  {
+    "id": "9753bd58a1395890",
+    "name": "Berlin",
+    "full_name": "Berlin, Germany",
+    "country": "Germany",
+    "country_code": "DE",
+    "url": "https://api.twitter.com/1.1/geo/id/9753bd58a1395890.json",
+    "place_type": "admin",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            13.088304,
+            52.338079
+          ],
+          [
+            13.088304,
+            52.675323
+          ],
+          [
+            13.760909,
+            52.675323
+          ],
+          [
+            13.760909,
+            52.338079
+          ],
+          [
+            13.088304,
+            52.338079
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      13.397251080234483,
+      52.506701
+    ],
+    "contained_within": [
+      {
+        "id": "fdcd221ac44fa326",
+        "name": "Germany",
+        "full_name": "Germany",
+        "country": "Germany",
+        "country_code": "DE",
+        "url": "https://api.twitter.com/1.1/geo/id/fdcd221ac44fa326.json",
+        "place_type": "country",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                5.8663566,
+                47.270127
+              ],
+              [
+                5.8663566,
+                55.056823
+              ],
+              [
+                15.0418536,
+                55.056823
+              ],
+              [
+                15.0418536,
+                47.270127
+              ],
+              [
+                5.8663566,
+                47.270127
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          10.579070078110984,
+          51.163475000000005
+        ]
+      }
+    ]
+  }
+]

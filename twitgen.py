@@ -5,15 +5,20 @@ import copy
 import random
 from shapely.geometry import Polygon, Point
 
-##SETTINGS##
-N_TWEETS = 100 
+##SETTINGS##This stuff should be in a config file but i can't be bothered rn
+N_TWEETS = 100
+N_USERS = 70
 #CHANCE OF TWEETS WITH COMPLETE GEO (be careful geo can be very slow to process especially with large bounding boxes)
 GEO_CHANCE = 0.4
 #JSON FILE OF TWITTER'S 'PLACE' ARRAY [from where a random location will be equally chosen]
 LOCATIONS_FILE = "citta_italia.json"
 #ONE OR MORE HASHTAG PER TWEET [number is chance of each]
-HASHTAGS = [["covid",0.6], ["lockdown",0.4],["vaccino",0.2],["2021",0.3]]
+HASHTAGS = [["covid",0.3],["lockdown",0.2],["vaccino",0.2],["2021",0.1]]
 TIME_RANGE = ["2020-10-01", "2020-12-31"]
+#ONE OR MORE IMAGE PER TWEET [number is chance of each]
+IMAGES = [["https://i.imgur.com/7tVYAeF.png",0.3],["https://i.imgur.com/4M8Tos4.png",0.2]]
+#LIST OF USERNAME STRINGS, CAN BE ALSO EMPTY OR WITH LESS NAMES THAN USERS
+NAMES = ["Mario"]
 ###########
 
 #CONSTS
@@ -21,6 +26,9 @@ TWID_BASE = 1000000000000000000
 TWID_MAX = 1999999999999999999
 UID_BASE = 100000000
 UID_MAX = 999999999
+IMGID_BASE = 1000000000000000000
+IMGID_MAX = 1999999999999999999
+ 
 
 
 ###TEMPLATES###
@@ -46,11 +54,6 @@ TWEET = {
     "in_reply_to_user_id": None,
     "in_reply_to_user_id_str": None,
     "in_reply_to_screen_name": None,
-    "user": {
-        "id": None,
-        "id_str": "",
-        "screen_name": ""
-    },
     "geo": None,
     "coordinates": None,
     "place": None,
@@ -79,6 +82,25 @@ COORDINATES = {
 }
 ##############
 
+def generate_users(n,names):
+    users = []
+    for i in range(n):
+        #yes we could get two identical ids, no not changing it atm
+        uid = UID_BASE + random.random() * (UID_MAX - UID_BASE)
+        #if there are no more names available they are in the user+uid format
+        if len(names) > 0:
+            name = names.pop()
+        else:
+            name = f"user{int(uid)}"
+        user = {
+            "id": uid,
+            "id_str": f"{int(uid)}",
+            "name": name,
+            "screen_name": name 
+        }
+        users.append(user) 
+    return users
+
 def get_random_date(daterange):
     start = time.mktime(time.strptime(daterange[0], "%Y-%m-%d"))
     end = time.mktime(time.strptime(daterange[1], "%Y-%m-%d"))
@@ -105,23 +127,21 @@ def get_random_points(bbox, n):
 def main():
     tweetlist = []
     places = parse_locations()
-    #points = get_random_points(places[0]["bounding_box"]["coordinates"][0],3)
+    users = generate_users(N_USERS,NAMES)
     for i in range(N_TWEETS):
         #progress countup :')))) you are gonna need it for sanity
         print(f"{i+1} tweets generated", end=("\n" if (i+1)>=N_TWEETS else "\r"))
-        tweet = copy.deepcopy(TWEET)
-        twid = TWID_BASE + random.random() * (TWID_MAX - TWID_BASE)
-        uid = UID_BASE + random.random() * (UID_MAX - UID_BASE)
 
+        tweet = copy.deepcopy(TWEET)
+
+        twid = TWID_BASE + random.random() * (TWID_MAX - TWID_BASE)
         tweet["id"] = twid
         tweet["id_str"] = f"{int(twid)}"
 
         tweet["created_at"] = get_random_date(TIME_RANGE)
-        
-        tweet["user"]["id"] = uid
-        tweet["user"]["id_str"] = f"{int(uid)}"
-        tweet["user"]["name"] = f"user{int(uid)}"
-        tweet["user"]["screen_name"] = f"user{int(uid)}"
+
+        #there could be more tweets from same user
+        tweet["user"] = random.choice(users)
         
         #Setting geoinfo for some tweets this might be very slow tbh
         if random.random() <= GEO_CHANCE:
@@ -142,20 +162,44 @@ def main():
         for tag in HASHTAGS:
             if random.random() <= tag[1]:
                 hashlist.append(tag[0])
+
+        imglist = []
+        for url in IMAGES:
+            if random.random() <= url[1]:
+                imglist.append(url[0])
         
         #tweet text and appending entities
         #every entity in a tweet has indices which identify at what point of the text it occurs
         tindex = 0
         text = ""
         for tag in hashlist:
-            text += "#" + tag + " "
             tag_el = {
                 "tag": tag,
                 "indices": [tindex, tindex+len(tag)]
             }
+            text += "#" + tag + " "
             #also counting # and space characters for indexing
             tindex += len(tag)+2
             tweet["entities"]["hashtag"].append(tag_el.copy())
+        
+        if len(imglist) > 0:
+            tweet["entities"]["media"] = []  
+        for imgurl in imglist:
+            imgid = IMGID_BASE + random.random() * (IMGID_MAX - IMGID_BASE)
+            tweet["entities"]["media"].append({
+                "id": imgid,
+                "id_str": f"{int(imgid)}",
+                #these two are the same rn sorry
+                "media_url": imgurl,
+                "media_url_https": imgurl,
+                "indices": [tindex, tindex+len(tag)],
+                "type": "photo"
+                #no sizes as of yet
+            })
+            text += imgurl + " "
+            #counting space
+            tindex += len(imgurl)+1
+
         #some placeholder text in case the tweet has no text
         if len(text) == 0:
             text += "no_text"

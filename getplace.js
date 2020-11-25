@@ -50,7 +50,6 @@ usr.get('geo/search', params).then((res) => {
         data = JSON.stringify(places, null, 2);
         fs.writeFileSync(path.join(__dirname, "/" + jfile), data);
     } catch(err) {
-        console.log(err);
         let list = [newplace];
         let data = JSON.stringify(list, null, 2);
         fs.writeFileSync(path.join(__dirname, "/" + jfile), data);
