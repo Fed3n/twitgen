@@ -6,19 +6,19 @@ import random
 from shapely.geometry import Polygon, Point
 
 ##SETTINGS##This stuff should be in a config file but i can't be bothered rn
-N_TWEETS = 100
-N_USERS = 60
+N_TWEETS = 1000
+N_USERS = 600
 #CHANCE OF TWEETS WITH COMPLETE GEO (be careful geo can be very slow to process especially with large bounding boxes)
 GEO_CHANCE = 0.4
 #JSON FILE OF TWITTER'S 'PLACE' ARRAY [from where a random location will be equally chosen]
-LOCATIONS_FILE = "citta_italia.json"
+LOCATIONS_FILE = "usa.json"
 #ONE OR MORE HASHTAG PER TWEET [number is chance of each]
-HASHTAGS = [["covid",0.3],["lockdown",0.2],["vaccino",0.1],["zona rossa",0.2]]
-TIME_RANGE = ["2020-10-01", "2020-12-31"]
+HASHTAGS = [["covid",0.3],["election",0.3],["biden",0.2],["trump",0.3]]
+TIME_RANGE = ["2020-11-01", "2021-01-31"]
 #ONE OR MORE DIRECT IMAGE URL PER TWEET [number is chance of each]
 IMAGES = [["https://i.imgur.com/7tVYAeF.png",0.3],["https://i.imgur.com/4M8Tos4.png",0.2]]
 #LIST OF USERNAME STRINGS, CAN BE ALSO EMPTY OR WITH LESS NAMES THAN USERS
-NAMES = ["Mario", "Luigi"]
+NAMES = []
 ###########
 
 #CONSTS
@@ -28,7 +28,7 @@ UID_BASE = 100000000
 UID_MAX = 999999999
 IMGID_BASE = 1000000000000000000
 IMGID_MAX = 1999999999999999999
- 
+LOOP_BOUND = 30000 
 
 
 ###TEMPLATES###
@@ -122,10 +122,19 @@ def get_random_points(bbox, n):
     poly = Polygon([(bbox[0][0],bbox[0][1]),(bbox[1][0],bbox[1][1]),(bbox[2][0],bbox[2][1]),(bbox[3][0],bbox[3][1]),(bbox[4][0],bbox[4][1])])
     minx, maxx, miny, maxy = poly.bounds
     points = []
+    i = 0
     while len(points) < n:
         rng_point = Point(random.uniform(minx, maxx), random.uniform(miny, maxy))
+        #idk this gets stuck on some bounding boxes, remove it from places maybe
+        if(i > LOOP_BOUND): 
+            print("this might be stuck on")
+            print(bbox)
+            print("falling back on inaccurate point...")
+            points.append(rng_point)
+
         if(rng_point.within(poly)):
             points.append(rng_point)
+        i += 1
     return points
 
 def main():

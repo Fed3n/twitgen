@@ -1,0 +1,1514 @@
+[
+  {
+    "id": "e0060cda70f5f341",
+    "name": "Texas",
+    "full_name": "Texas, USA",
+    "country": "United States",
+    "country_code": "US",
+    "url": "https://api.twitter.com/1.1/geo/id/e0060cda70f5f341.json",
+    "place_type": "admin",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -106.645646,
+            25.837092
+          ],
+          [
+            -106.645646,
+            36.500695
+          ],
+          [
+            -93.508131,
+            36.500695
+          ],
+          [
+            -93.508131,
+            25.837092
+          ],
+          [
+            -106.645646,
+            25.837092
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      -99.68325796647969,
+      31.1688935
+    ],
+    "contained_within": [
+      {
+        "id": "96683cc9126741d1",
+        "name": "United States",
+        "full_name": "United States",
+        "country": "United States",
+        "country_code": "US",
+        "url": "https://api.twitter.com/1.1/geo/id/96683cc9126741d1.json",
+        "place_type": "country",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -179.231086,
+                13.182335
+              ],
+              [
+                -179.231086,
+                71.434357
+              ],
+              [
+                179.859685,
+                71.434357
+              ],
+              [
+                179.859685,
+                13.182335
+              ],
+              [
+                -179.231086,
+                13.182335
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          -98.99308143101959,
+          36.890333500000004
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fbd6d2f5a4e4a15e",
+    "name": "California",
+    "full_name": "California, USA",
+    "country": "United States",
+    "country_code": "US",
+    "url": "https://api.twitter.com/1.1/geo/id/fbd6d2f5a4e4a15e.json",
+    "place_type": "admin",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -124.482003,
+            32.528832
+          ],
+          [
+            -124.482003,
+            42.009519
+          ],
+          [
+            -114.131212,
+            42.009519
+          ],
+          [
+            -114.131212,
+            32.528832
+          ],
+          [
+            -124.482003,
+            32.528832
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      -120.02487379467527,
+      37.2691755
+    ],
+    "contained_within": [
+      {
+        "id": "96683cc9126741d1",
+        "name": "United States",
+        "full_name": "United States",
+        "country": "United States",
+        "country_code": "US",
+        "url": "https://api.twitter.com/1.1/geo/id/96683cc9126741d1.json",
+        "place_type": "country",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -179.231086,
+                13.182335
+              ],
+              [
+                -179.231086,
+                71.434357
+              ],
+              [
+                179.859685,
+                71.434357
+              ],
+              [
+                179.859685,
+                13.182335
+              ],
+              [
+                -179.231086,
+                13.182335
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          -98.99308143101959,
+          36.890333500000004
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d2ddff69682ae534",
+    "name": "Montana",
+    "full_name": "Montana, USA",
+    "country": "United States",
+    "country_code": "US",
+    "url": "https://api.twitter.com/1.1/geo/id/d2ddff69682ae534.json",
+    "place_type": "admin",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -116.050004,
+            44.35821
+          ],
+          [
+            -116.050004,
+            49.00139
+          ],
+          [
+            -104.039563,
+            49.00139
+          ],
+          [
+            -104.039563,
+            44.35821
+          ],
+          [
+            -116.050004,
+            44.35821
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      -109.34311337416429,
+      46.6798
+    ],
+    "contained_within": [
+      {
+        "id": "96683cc9126741d1",
+        "name": "United States",
+        "full_name": "United States",
+        "country": "United States",
+        "country_code": "US",
+        "url": "https://api.twitter.com/1.1/geo/id/96683cc9126741d1.json",
+        "place_type": "country",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -179.231086,
+                13.182335
+              ],
+              [
+                -179.231086,
+                71.434357
+              ],
+              [
+                179.859685,
+                71.434357
+              ],
+              [
+                179.859685,
+                13.182335
+              ],
+              [
+                -179.231086,
+                13.182335
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          -98.99308143101959,
+          36.890333500000004
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a612c69b44b2e5da",
+    "name": "Arizona",
+    "full_name": "Arizona, USA",
+    "country": "United States",
+    "country_code": "US",
+    "url": "https://api.twitter.com/1.1/geo/id/a612c69b44b2e5da.json",
+    "place_type": "admin",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -114.818269,
+            31.3322463
+          ],
+          [
+            -114.818269,
+            37.004261
+          ],
+          [
+            -109.0451527,
+            37.004261
+          ],
+          [
+            -109.0451527,
+            31.3322463
+          ],
+          [
+            -114.818269,
+            31.3322463
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      -111.6686921118503,
+      34.16825365
+    ],
+    "contained_within": [
+      {
+        "id": "96683cc9126741d1",
+        "name": "United States",
+        "full_name": "United States",
+        "country": "United States",
+        "country_code": "US",
+        "url": "https://api.twitter.com/1.1/geo/id/96683cc9126741d1.json",
+        "place_type": "country",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -179.231086,
+                13.182335
+              ],
+              [
+                -179.231086,
+                71.434357
+              ],
+              [
+                179.859685,
+                71.434357
+              ],
+              [
+                179.859685,
+                13.182335
+              ],
+              [
+                -179.231086,
+                13.182335
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          -98.99308143101959,
+          36.890333500000004
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d374fb61a20fb74f",
+    "name": "Nevada",
+    "full_name": "Nevada, USA",
+    "country": "United States",
+    "country_code": "US",
+    "url": "https://api.twitter.com/1.1/geo/id/d374fb61a20fb74f.json",
+    "place_type": "admin",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -120.00574,
+            35.002086
+          ],
+          [
+            -120.00574,
+            42.002208
+          ],
+          [
+            -114.039649,
+            42.002208
+          ],
+          [
+            -114.039649,
+            35.002086
+          ],
+          [
+            -120.00574,
+            35.002086
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      -116.66638900664358,
+      38.502147
+    ],
+    "contained_within": [
+      {
+        "id": "96683cc9126741d1",
+        "name": "United States",
+        "full_name": "United States",
+        "country": "United States",
+        "country_code": "US",
+        "url": "https://api.twitter.com/1.1/geo/id/96683cc9126741d1.json",
+        "place_type": "country",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -179.231086,
+                13.182335
+              ],
+              [
+                -179.231086,
+                71.434357
+              ],
+              [
+                179.859685,
+                71.434357
+              ],
+              [
+                179.859685,
+                13.182335
+              ],
+              [
+                -179.231086,
+                13.182335
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          -98.99308143101959,
+          36.890333500000004
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e21c8e4914eef2b3",
+    "name": "Colorado",
+    "full_name": "Colorado, USA",
+    "country": "United States",
+    "country_code": "US",
+    "url": "https://api.twitter.com/1.1/geo/id/e21c8e4914eef2b3.json",
+    "place_type": "admin",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -109.060257,
+            36.992427
+          ],
+          [
+            -109.060257,
+            41.003445
+          ],
+          [
+            -102.041524,
+            41.003445
+          ],
+          [
+            -102.041524,
+            36.992427
+          ],
+          [
+            -109.060257,
+            36.992427
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      -105.54936046100161,
+      38.997935999999996
+    ],
+    "contained_within": [
+      {
+        "id": "96683cc9126741d1",
+        "name": "United States",
+        "full_name": "United States",
+        "country": "United States",
+        "country_code": "US",
+        "url": "https://api.twitter.com/1.1/geo/id/96683cc9126741d1.json",
+        "place_type": "country",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -179.231086,
+                13.182335
+              ],
+              [
+                -179.231086,
+                71.434357
+              ],
+              [
+                179.859685,
+                71.434357
+              ],
+              [
+                179.859685,
+                13.182335
+              ],
+              [
+                -179.231086,
+                13.182335
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          -98.99308143101959,
+          36.890333500000004
+        ]
+      }
+    ]
+  },
+  {
+    "id": "df7fd3a3b9eff7ee",
+    "name": "Oregon",
+    "full_name": "Oregon, USA",
+    "country": "United States",
+    "country_code": "US",
+    "url": "https://api.twitter.com/1.1/geo/id/df7fd3a3b9eff7ee.json",
+    "place_type": "admin",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -124.703541,
+            41.991795
+          ],
+          [
+            -124.703541,
+            46.2990779
+          ],
+          [
+            -116.463262,
+            46.2990779
+          ],
+          [
+            -116.463262,
+            41.991795
+          ],
+          [
+            -124.703541,
+            41.991795
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      -120.55104554858586,
+      44.145436450000005
+    ],
+    "contained_within": [
+      {
+        "id": "96683cc9126741d1",
+        "name": "United States",
+        "full_name": "United States",
+        "country": "United States",
+        "country_code": "US",
+        "url": "https://api.twitter.com/1.1/geo/id/96683cc9126741d1.json",
+        "place_type": "country",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -179.231086,
+                13.182335
+              ],
+              [
+                -179.231086,
+                71.434357
+              ],
+              [
+                179.859685,
+                71.434357
+              ],
+              [
+                179.859685,
+                13.182335
+              ],
+              [
+                -179.231086,
+                13.182335
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          -98.99308143101959,
+          36.890333500000004
+        ]
+      }
+    ]
+  },
+  {
+    "id": "67d92742f1ebf307",
+    "name": "Michigan",
+    "full_name": "Michigan, USA",
+    "country": "United States",
+    "country_code": "US",
+    "url": "https://api.twitter.com/1.1/geo/id/67d92742f1ebf307.json",
+    "place_type": "admin",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -90.4181075,
+            41.696088
+          ],
+          [
+            -90.4181075,
+            48.306272
+          ],
+          [
+            -82.122971,
+            48.306272
+          ],
+          [
+            -82.122971,
+            41.696088
+          ],
+          [
+            -90.4181075,
+            41.696088
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      -84.50829855034348,
+      45.001180000000005
+    ],
+    "contained_within": [
+      {
+        "id": "96683cc9126741d1",
+        "name": "United States",
+        "full_name": "United States",
+        "country": "United States",
+        "country_code": "US",
+        "url": "https://api.twitter.com/1.1/geo/id/96683cc9126741d1.json",
+        "place_type": "country",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -179.231086,
+                13.182335
+              ],
+              [
+                -179.231086,
+                71.434357
+              ],
+              [
+                179.859685,
+                71.434357
+              ],
+              [
+                179.859685,
+                13.182335
+              ],
+              [
+                -179.231086,
+                13.182335
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          -98.99308143101959,
+          36.890333500000004
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9807c5c5f7a2c6ce",
+    "name": "Minnesota",
+    "full_name": "Minnesota, USA",
+    "country": "United States",
+    "country_code": "US",
+    "url": "https://api.twitter.com/1.1/geo/id/9807c5c5f7a2c6ce.json",
+    "place_type": "admin",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -97.239256,
+            43.499362
+          ],
+          [
+            -97.239256,
+            49.384359
+          ],
+          [
+            -89.483385,
+            49.384359
+          ],
+          [
+            -89.483385,
+            43.499362
+          ],
+          [
+            -97.239256,
+            43.499362
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      -94.50251511286126,
+      46.441860500000004
+    ],
+    "contained_within": [
+      {
+        "id": "96683cc9126741d1",
+        "name": "United States",
+        "full_name": "United States",
+        "country": "United States",
+        "country_code": "US",
+        "url": "https://api.twitter.com/1.1/geo/id/96683cc9126741d1.json",
+        "place_type": "country",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -179.231086,
+                13.182335
+              ],
+              [
+                -179.231086,
+                71.434357
+              ],
+              [
+                179.859685,
+                71.434357
+              ],
+              [
+                179.859685,
+                13.182335
+              ],
+              [
+                -179.231086,
+                13.182335
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          -98.99308143101959,
+          36.890333500000004
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1879ace9e02ace61",
+    "name": "Utah",
+    "full_name": "Utah, USA",
+    "country": "United States",
+    "country_code": "US",
+    "url": "https://api.twitter.com/1.1/geo/id/1879ace9e02ace61.json",
+    "place_type": "admin",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -114.052999,
+            36.997905
+          ],
+          [
+            -114.052999,
+            42.001619
+          ],
+          [
+            -109.041059,
+            42.001619
+          ],
+          [
+            -109.041059,
+            36.997905
+          ],
+          [
+            -114.052999,
+            36.997905
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      -111.54924435895992,
+      39.499762000000004
+    ],
+    "contained_within": [
+      {
+        "id": "96683cc9126741d1",
+        "name": "United States",
+        "full_name": "United States",
+        "country": "United States",
+        "country_code": "US",
+        "url": "https://api.twitter.com/1.1/geo/id/96683cc9126741d1.json",
+        "place_type": "country",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -179.231086,
+                13.182335
+              ],
+              [
+                -179.231086,
+                71.434357
+              ],
+              [
+                179.859685,
+                71.434357
+              ],
+              [
+                179.859685,
+                13.182335
+              ],
+              [
+                -179.231086,
+                13.182335
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          -98.99308143101959,
+          36.890333500000004
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bc3a38d3d5999b4b",
+    "name": "Washington",
+    "full_name": "Washington, USA",
+    "country": "United States",
+    "country_code": "US",
+    "url": "https://api.twitter.com/1.1/geo/id/bc3a38d3d5999b4b.json",
+    "place_type": "admin",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -124.848975,
+            45.543542
+          ],
+          [
+            -124.848975,
+            49.0025023
+          ],
+          [
+            -116.915989,
+            49.0025023
+          ],
+          [
+            -116.915989,
+            45.543542
+          ],
+          [
+            -124.848975,
+            45.543542
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      -120.69394454247106,
+      47.27302215
+    ],
+    "contained_within": [
+      {
+        "id": "96683cc9126741d1",
+        "name": "United States",
+        "full_name": "United States",
+        "country": "United States",
+        "country_code": "US",
+        "url": "https://api.twitter.com/1.1/geo/id/96683cc9126741d1.json",
+        "place_type": "country",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -179.231086,
+                13.182335
+              ],
+              [
+                -179.231086,
+                71.434357
+              ],
+              [
+                179.859685,
+                71.434357
+              ],
+              [
+                179.859685,
+                13.182335
+              ],
+              [
+                -179.231086,
+                13.182335
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          -98.99308143101959,
+          36.890333500000004
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bd3d2074a33fbd06",
+    "name": "Oklahoma",
+    "full_name": "Oklahoma, USA",
+    "country": "United States",
+    "country_code": "US",
+    "url": "https://api.twitter.com/1.1/geo/id/bd3d2074a33fbd06.json",
+    "place_type": "admin",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -103.0026515,
+            33.615765
+          ],
+          [
+            -103.0026515,
+            37.002328
+          ],
+          [
+            -94.431332,
+            37.002328
+          ],
+          [
+            -94.431332,
+            33.615765
+          ],
+          [
+            -103.0026515,
+            33.615765
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      -97.21731890380694,
+      35.3090465
+    ],
+    "contained_within": [
+      {
+        "id": "96683cc9126741d1",
+        "name": "United States",
+        "full_name": "United States",
+        "country": "United States",
+        "country_code": "US",
+        "url": "https://api.twitter.com/1.1/geo/id/96683cc9126741d1.json",
+        "place_type": "country",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -179.231086,
+                13.182335
+              ],
+              [
+                -179.231086,
+                71.434357
+              ],
+              [
+                179.859685,
+                71.434357
+              ],
+              [
+                179.859685,
+                13.182335
+              ],
+              [
+                -179.231086,
+                13.182335
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          -98.99308143101959,
+          36.890333500000004
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2526edd24c06e60c",
+    "name": "Missouri",
+    "full_name": "Missouri, USA",
+    "country": "United States",
+    "country_code": "US",
+    "url": "https://api.twitter.com/1.1/geo/id/2526edd24c06e60c.json",
+    "place_type": "admin",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -95.774704,
+            35.995476
+          ],
+          [
+            -95.774704,
+            40.613641
+          ],
+          [
+            -89.098843,
+            40.613641
+          ],
+          [
+            -89.098843,
+            35.995476
+          ],
+          [
+            -95.774704,
+            35.995476
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      -92.49220937633565,
+      38.3045585
+    ],
+    "contained_within": [
+      {
+        "id": "96683cc9126741d1",
+        "name": "United States",
+        "full_name": "United States",
+        "country": "United States",
+        "country_code": "US",
+        "url": "https://api.twitter.com/1.1/geo/id/96683cc9126741d1.json",
+        "place_type": "country",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -179.231086,
+                13.182335
+              ],
+              [
+                -179.231086,
+                71.434357
+              ],
+              [
+                179.859685,
+                71.434357
+              ],
+              [
+                179.859685,
+                13.182335
+              ],
+              [
+                -179.231086,
+                13.182335
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          -98.99308143101959,
+          36.890333500000004
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7dc5c6d3bfb10ccc",
+    "name": "Wisconsin",
+    "full_name": "Wisconsin, USA",
+    "country": "United States",
+    "country_code": "US",
+    "url": "https://api.twitter.com/1.1/geo/id/7dc5c6d3bfb10ccc.json",
+    "place_type": "admin",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -92.889433,
+            42.491921
+          ],
+          [
+            -92.889433,
+            47.309715
+          ],
+          [
+            -86.24955,
+            47.309715
+          ],
+          [
+            -86.24955,
+            42.491921
+          ],
+          [
+            -92.889433,
+            42.491921
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      -89.72070373734817,
+      44.900818
+    ],
+    "contained_within": [
+      {
+        "id": "96683cc9126741d1",
+        "name": "United States",
+        "full_name": "United States",
+        "country": "United States",
+        "country_code": "US",
+        "url": "https://api.twitter.com/1.1/geo/id/96683cc9126741d1.json",
+        "place_type": "country",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -179.231086,
+                13.182335
+              ],
+              [
+                -179.231086,
+                71.434357
+              ],
+              [
+                179.859685,
+                71.434357
+              ],
+              [
+                179.859685,
+                13.182335
+              ],
+              [
+                -179.231086,
+                13.182335
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          -98.99308143101959,
+          36.890333500000004
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7142eb97ae21e839",
+    "name": "Georgia",
+    "full_name": "Georgia, USA",
+    "country": "United States",
+    "country_code": "US",
+    "url": "https://api.twitter.com/1.1/geo/id/7142eb97ae21e839.json",
+    "place_type": "admin",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -85.605166,
+            30.355644
+          ],
+          [
+            -85.605166,
+            35.000771
+          ],
+          [
+            -80.742567,
+            35.000771
+          ],
+          [
+            -80.742567,
+            30.355644
+          ],
+          [
+            -85.605166,
+            30.355644
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      -83.25149607323723,
+      32.6782075
+    ],
+    "contained_within": [
+      {
+        "id": "96683cc9126741d1",
+        "name": "United States",
+        "full_name": "United States",
+        "country": "United States",
+        "country_code": "US",
+        "url": "https://api.twitter.com/1.1/geo/id/96683cc9126741d1.json",
+        "place_type": "country",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -179.231086,
+                13.182335
+              ],
+              [
+                -179.231086,
+                71.434357
+              ],
+              [
+                179.859685,
+                71.434357
+              ],
+              [
+                179.859685,
+                13.182335
+              ],
+              [
+                -179.231086,
+                13.182335
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          -98.99308143101959,
+          36.890333500000004
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7142eb97ae21e839",
+    "name": "Georgia",
+    "full_name": "Georgia, USA",
+    "country": "United States",
+    "country_code": "US",
+    "url": "https://api.twitter.com/1.1/geo/id/7142eb97ae21e839.json",
+    "place_type": "admin",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -85.605166,
+            30.355644
+          ],
+          [
+            -85.605166,
+            35.000771
+          ],
+          [
+            -80.742567,
+            35.000771
+          ],
+          [
+            -80.742567,
+            30.355644
+          ],
+          [
+            -85.605166,
+            30.355644
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      -83.25149607323723,
+      32.6782075
+    ],
+    "contained_within": [
+      {
+        "id": "96683cc9126741d1",
+        "name": "United States",
+        "full_name": "United States",
+        "country": "United States",
+        "country_code": "US",
+        "url": "https://api.twitter.com/1.1/geo/id/96683cc9126741d1.json",
+        "place_type": "country",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -179.231086,
+                13.182335
+              ],
+              [
+                -179.231086,
+                71.434357
+              ],
+              [
+                179.859685,
+                71.434357
+              ],
+              [
+                179.859685,
+                13.182335
+              ],
+              [
+                -179.231086,
+                13.182335
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          -98.99308143101959,
+          36.890333500000004
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3cd4c18d3615bbc9",
+    "name": "Iowa",
+    "full_name": "Iowa, USA",
+    "country": "United States",
+    "country_code": "US",
+    "url": "https://api.twitter.com/1.1/geo/id/3cd4c18d3615bbc9.json",
+    "place_type": "admin",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -96.6396669,
+            40.375437
+          ],
+          [
+            -96.6396669,
+            43.50102
+          ],
+          [
+            -90.140061,
+            43.50102
+          ],
+          [
+            -90.140061,
+            40.375437
+          ],
+          [
+            -96.6396669,
+            40.375437
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      -93.15040950680422,
+      41.938228499999994
+    ],
+    "contained_within": [
+      {
+        "id": "96683cc9126741d1",
+        "name": "United States",
+        "full_name": "United States",
+        "country": "United States",
+        "country_code": "US",
+        "url": "https://api.twitter.com/1.1/geo/id/96683cc9126741d1.json",
+        "place_type": "country",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -179.231086,
+                13.182335
+              ],
+              [
+                -179.231086,
+                71.434357
+              ],
+              [
+                179.859685,
+                71.434357
+              ],
+              [
+                179.859685,
+                13.182335
+              ],
+              [
+                -179.231086,
+                13.182335
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          -98.99308143101959,
+          36.890333500000004
+        ]
+      }
+    ]
+  },
+  {
+    "id": "94965b2c45386f87",
+    "name": "New York",
+    "full_name": "New York, USA",
+    "country": "United States",
+    "country_code": "US",
+    "url": "https://api.twitter.com/1.1/geo/id/94965b2c45386f87.json",
+    "place_type": "admin",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -79.76259,
+            40.477383
+          ],
+          [
+            -79.76259,
+            45.015851
+          ],
+          [
+            -71.777492,
+            45.015851
+          ],
+          [
+            -71.777492,
+            40.477383
+          ],
+          [
+            -79.76259,
+            40.477383
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      -76.2146236146748,
+      42.746617
+    ],
+    "contained_within": [
+      {
+        "id": "96683cc9126741d1",
+        "name": "United States",
+        "full_name": "United States",
+        "country": "United States",
+        "country_code": "US",
+        "url": "https://api.twitter.com/1.1/geo/id/96683cc9126741d1.json",
+        "place_type": "country",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -179.231086,
+                13.182335
+              ],
+              [
+                -179.231086,
+                71.434357
+              ],
+              [
+                179.859685,
+                71.434357
+              ],
+              [
+                179.859685,
+                13.182335
+              ],
+              [
+                -179.231086,
+                13.182335
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          -98.99308143101959,
+          36.890333500000004
+        ]
+      }
+    ]
+  }
+]
