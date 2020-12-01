@@ -9,11 +9,13 @@ There is one more script which lets you collect the needed array of places (one 
 ### Setting up twitgen.py
 The main python script has some parameters to fill (it has some default ones as an example).  
 **N_TWEETS** is obviously the number of tweets to be generated (beware the script is slow don't go too high)  
+**N_USERS** number of different users to have tweeting in the set
 **GEO_CHANCE** is the chance (between 0.0~1.0) of a tweet having a geolocation. Generating a random coordinate according to a given twitter place is the actual slow part of the script, beware of this amount.  
 **LOCATIONS_FILE** is the twitter places file. Every time a tweet should have a geolocation, one place at random from this json array will be chosen.  
 **HASHTAGS** array of ["tag", *chance*] pairs, each one of these has *chance* chance to appear in a given tweet. (So to be clear, all or none of those may appear in each tweet).  
 **TIME_RANGE** is a range array in the form ["start date", "end date"] of two dates in the "YEAR-MONTH-DAY" format. Every generated tweet is dated between this range.  
-
+**IMAGES** same as for hashtags, insert [direct_image_URL,chance] couples in the list
+**NAMES** screen names you wish some (or all) of your fake users to have, even if they are less then the number of users the remaining users will have a randomly generated name in user+random_uid format
 
 Once all of this is done you are ready to launch the script with 'python3 twitgen.py'.
 When done the output json of tweets is saved in out_twitgen.json.
@@ -30,6 +32,8 @@ ACCESS_TOKEN_SECRET=''
 Then launch the script with 'node getplaces.js output_path place_name [neighborhood/city/admin/country]', last parameter is optional but should be used to get a larger bounding box for the place as the default is neighborhood. When the output file does not exist it is created, else the script will append the new place to the list.
 
 # WIP
-adding images someday :(
+adding a config file instead of in-script parameters [m8b never tho?]
 
-
+# Examples
+The repository now contains a couple example sets.
+There's also a couple manually generated places files. :))

@@ -7,18 +7,18 @@ from shapely.geometry import Polygon, Point
 
 ##SETTINGS##This stuff should be in a config file but i can't be bothered rn
 N_TWEETS = 100
-N_USERS = 70
+N_USERS = 60
 #CHANCE OF TWEETS WITH COMPLETE GEO (be careful geo can be very slow to process especially with large bounding boxes)
 GEO_CHANCE = 0.4
 #JSON FILE OF TWITTER'S 'PLACE' ARRAY [from where a random location will be equally chosen]
 LOCATIONS_FILE = "citta_italia.json"
 #ONE OR MORE HASHTAG PER TWEET [number is chance of each]
-HASHTAGS = [["covid",0.3],["lockdown",0.2],["vaccino",0.2],["2021",0.1]]
+HASHTAGS = [["covid",0.3],["lockdown",0.2],["vaccino",0.1],["zona rossa",0.2]]
 TIME_RANGE = ["2020-10-01", "2020-12-31"]
-#ONE OR MORE IMAGE PER TWEET [number is chance of each]
+#ONE OR MORE DIRECT IMAGE URL PER TWEET [number is chance of each]
 IMAGES = [["https://i.imgur.com/7tVYAeF.png",0.3],["https://i.imgur.com/4M8Tos4.png",0.2]]
 #LIST OF USERNAME STRINGS, CAN BE ALSO EMPTY OR WITH LESS NAMES THAN USERS
-NAMES = ["Mario"]
+NAMES = ["Mario", "Luigi"]
 ###########
 
 #CONSTS
@@ -82,6 +82,7 @@ COORDINATES = {
 }
 ##############
 
+#given n and a list names of names, generates a list of users
 def generate_users(n,names):
     users = []
     for i in range(n):
@@ -108,12 +109,15 @@ def get_random_date(daterange):
     return time.strftime("%a %b %d %H:%M:%S %z %Y", time.localtime(rngtime))
     
 
-def parse_locations():
+def parse_json():
     with open(LOCATIONS_FILE) as f:
         data = f.read()
-        places = json.loads(data)
-        return places
+        parsed = json.loads(data)
+        return parsed
 
+#https://stackoverflow.com/questions/55392019/get-random-points-within-polygon-corners
+#given a twitter bounding box and n, generates n random points inside the boundaries 
+#(slow algorithm, generates a viable point and checks if it's inside the boundaries)
 def get_random_points(bbox, n):
     poly = Polygon([(bbox[0][0],bbox[0][1]),(bbox[1][0],bbox[1][1]),(bbox[2][0],bbox[2][1]),(bbox[3][0],bbox[3][1]),(bbox[4][0],bbox[4][1])])
     minx, maxx, miny, maxy = poly.bounds
@@ -126,7 +130,7 @@ def get_random_points(bbox, n):
 
 def main():
     tweetlist = []
-    places = parse_locations()
+    places = parse_json()
     users = generate_users(N_USERS,NAMES)
     for i in range(N_TWEETS):
         #progress countup :')))) you are gonna need it for sanity

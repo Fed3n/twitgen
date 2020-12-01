@@ -1090,5 +1090,341 @@
         ]
       }
     ]
+  },
+  {
+    "id": "39624a533a39fb85",
+    "name": "Cesena",
+    "full_name": "Cesena, Emilia Romagna",
+    "country": "Italy",
+    "country_code": "IT",
+    "url": "https://api.twitter.com/1.1/geo/id/39624a533a39fb85.json",
+    "place_type": "city",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            12.0944762,
+            44.0203236
+          ],
+          [
+            12.0944762,
+            44.2331274
+          ],
+          [
+            12.3622938,
+            44.2331274
+          ],
+          [
+            12.3622938,
+            44.0203236
+          ],
+          [
+            12.0944762,
+            44.0203236
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      12.253675572635956,
+      44.1267255
+    ],
+    "contained_within": [
+      {
+        "id": "8aeef6b82fd37f00",
+        "name": "Forlì-Cesena",
+        "full_name": "Forlì-Cesena, Emilia Romagna",
+        "country": "Italy",
+        "country_code": "IT",
+        "url": "https://api.twitter.com/1.1/geo/id/8aeef6b82fd37f00.json",
+        "place_type": "admin",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                11.6455869989956,
+                43.7405411325043
+              ],
+              [
+                11.6455869989956,
+                44.3307930009746
+              ],
+              [
+                12.4574559969754,
+                44.3307930009746
+              ],
+              [
+                12.4574559969754,
+                43.7405411325043
+              ],
+              [
+                11.6455869989956,
+                43.7405411325043
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          12.0387499436796,
+          44.03566706673945
+        ]
+      }
+    ]
+  },
+  {
+    "id": "48d9a20585cb9535",
+    "name": "Lucca",
+    "full_name": "Lucca, Tuscany",
+    "country": "Italy",
+    "country_code": "IT",
+    "url": "https://api.twitter.com/1.1/geo/id/48d9a20585cb9535.json",
+    "place_type": "city",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            10.3628174,
+            43.7580622
+          ],
+          [
+            10.3628174,
+            43.9593708
+          ],
+          [
+            10.5737029,
+            43.9593708
+          ],
+          [
+            10.5737029,
+            43.7580622
+          ],
+          [
+            10.3628174,
+            43.7580622
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      10.463226656230402,
+      43.8587165
+    ],
+    "contained_within": [
+      {
+        "id": "e17f9e03cc28bb0a",
+        "name": "Lucca",
+        "full_name": "Lucca, Toscana",
+        "country": "Italy",
+        "country_code": "IT",
+        "url": "https://api.twitter.com/1.1/geo/id/e17f9e03cc28bb0a.json",
+        "place_type": "admin",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                10.144063001391,
+                43.749125998482
+              ],
+              [
+                10.144063001391,
+                44.2859560011356
+              ],
+              [
+                10.7378349969655,
+                44.2859560011356
+              ],
+              [
+                10.7378349969655,
+                43.749125998482
+              ],
+              [
+                10.144063001391,
+                43.749125998482
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          10.453798625080756,
+          44.0175409998088
+        ]
+      }
+    ]
+  },
+  {
+    "id": "558d98a00817bf36",
+    "name": "Perugia",
+    "full_name": "Perugia, Umbria",
+    "country": "Italy",
+    "country_code": "IT",
+    "url": "https://api.twitter.com/1.1/geo/id/558d98a00817bf36.json",
+    "place_type": "city",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            12.1720976,
+            42.9932168
+          ],
+          [
+            12.1720976,
+            43.2854505
+          ],
+          [
+            12.565321,
+            43.2854505
+          ],
+          [
+            12.565321,
+            42.9932168
+          ],
+          [
+            12.1720976,
+            42.9932168
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      12.433570769000347,
+      43.13933365
+    ],
+    "contained_within": [
+      {
+        "id": "0123d42021e80bbf",
+        "name": "Perugia",
+        "full_name": "Perugia, Umbria",
+        "country": "Italy",
+        "country_code": "IT",
+        "url": "https://api.twitter.com/1.1/geo/id/0123d42021e80bbf.json",
+        "place_type": "admin",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                11.9123990016711,
+                42.5967869985568
+              ],
+              [
+                11.9123990016711,
+                43.6173229968205
+              ],
+              [
+                13.2642650012378,
+                43.6173229968205
+              ],
+              [
+                13.2642650012378,
+                42.5967869985568
+              ],
+              [
+                11.9123990016711,
+                42.5967869985568
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          12.403057891787352,
+          43.10705499768865
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9974c57b7c2b41f5",
+    "name": "Modena",
+    "full_name": "Modena, Emilia Romagna",
+    "country": "Italy",
+    "country_code": "IT",
+    "url": "https://api.twitter.com/1.1/geo/id/9974c57b7c2b41f5.json",
+    "place_type": "city",
+    "attributes": {},
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            10.7820402,
+            44.5628476
+          ],
+          [
+            10.7820402,
+            44.7266492
+          ],
+          [
+            11.0117907,
+            44.7266492
+          ],
+          [
+            11.0117907,
+            44.5628476
+          ],
+          [
+            10.7820402,
+            44.5628476
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      10.888946592995428,
+      44.6447484
+    ],
+    "contained_within": [
+      {
+        "id": "d05af6ed1d410b48",
+        "name": "Modena",
+        "full_name": "Modena, Emilia Romagna",
+        "country": "Italy",
+        "country_code": "IT",
+        "url": "https://api.twitter.com/1.1/geo/id/d05af6ed1d410b48.json",
+        "place_type": "admin",
+        "attributes": {},
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                10.4701679971939,
+                44.1146630000636
+              ],
+              [
+                10.4701679971939,
+                44.9629399994952
+              ],
+              [
+                11.3686339971816,
+                44.9629399994952
+              ],
+              [
+                11.3686339971816,
+                44.1146630000636
+              ],
+              [
+                10.4701679971939,
+                44.1146630000636
+              ]
+            ]
+          ]
+        },
+        "centroid": [
+          10.935588525180396,
+          44.538801499779396
+        ]
+      }
+    ]
   }
 ]
